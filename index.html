@@ -3,20 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
+    <title>Creative Design Services</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Customized Website!</h1>
-    <p>This is a simple website created using HTML, CSS, and JavaScript.</p>
-    <p>Add your custom content here.</p>
-    <img src="path/to/your/image.jpg" alt="A cool image">
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
-    <button onclick="showMessage()">Click Me!</button>
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#samples">Samples Work Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Landing Page -->
+    <header id="home">
+        <h1>I'M YOUR FREELANCER</h1>
+        <p>CREATIVE DESIGNS SERVICES FOR YOUR INDUSTRY<br>TAILORED DESIGN SOLUTIONS</p>
+        <button onclick="location.href='#contact'">READ MORE</button>
+    </header>
+
+    <!-- Work Samples Section -->
+    <section id="samples">
+        <h2>SAMPLES WORK PROJECTS</h2>
+        <div class="samples">
+            <div class="sample">
+                <h3>Visual Design & Editing</h3>
+                <button>VIEW</button>
+            </div>
+            <div class="sample">
+                <h3>Interactive Media AR/VR Cards</h3>
+                <button>VIEW</button>
+            </div>
+            <div class="sample">
+                <h3>Professional Document Services</h3>
+                <button>VIEW</button>
+            </div>
+            <div class="sample">
+                <h3>Data & Analytics</h3>
+                <button>VIEW</button>
+            </div>
+            <div class="sample">
+                <h3>Animation & Web Development</h3>
+                <button>VIEW</button>
+            </div>
+            <div class="sample">
+                <h3>Translation & Localization</h3>
+                <button>VIEW</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>ABOUT THE WEBSITE</h2>
+        <p>Your text about the website, skills, experiences, and dedication to excellence goes here.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>+971-557266520 - ALFAZAL<br>FAIZALKHAN2024@OUTLOOK.COM<br>REACH OUT TO DISCUSS OPPORTUNITIES, COLLABORATIONS, OR ANY INQUIRIES. I LOOK FORWARD TO CONNECTING WITH YOU</p>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Contact Us</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#samples">Samples Work Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
