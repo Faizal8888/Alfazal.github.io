@@ -1,28 +1,5 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+function showMessage() {
+    alert("Hello! Welcome to my customized website.");
 }
 
-h1 {
-    color: #333;
-}
-
-p {
-    font-size: 18px;
-    color: #666;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
+// Add more JavaScript code to add interactivity
